@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: research-search-agent
+Version: 0.1.0
+Summary: Hybrid SearXNG and Tavily research search agent backed by local Ollama
+Requires-Python: >=3.11
+Requires-Dist: fastapi<1,>=0.115
+Requires-Dist: httpx<1,>=0.27
+Requires-Dist: mcp<2,>=1.27.2
+Requires-Dist: paper-search-mcp==0.1.4
+Requires-Dist: pydantic-settings<3,>=2.6
+Requires-Dist: uvicorn[standard]<1,>=0.32
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8.3; extra == "dev"
+Requires-Dist: pytest-asyncio<1,>=0.24; extra == "dev"
+Requires-Dist: ruff<1,>=0.8; extra == "dev"
