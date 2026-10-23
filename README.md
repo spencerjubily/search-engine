@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Research Search Agent
 
 An API-first research assistant for project novelty screening, scholarly literature discovery, and patent landscape triage. It searches an existing SearXNG instance and optionally Tavily in parallel, uses [`paper-search-mcp`](https://github.com/openags/paper-search-mcp) for federated academic discovery, fuses duplicate records, and asks a local Ollama model to produce a structured analysis tied to retrieved source IDs.
@@ -127,3 +128,6 @@ Tests use no live providers; they cover canonical URL deduplication, source fusi
 - [paper-search-mcp](https://github.com/openags/paper-search-mcp): stdio MCP server and unified `search_papers` tool.
 - [Ollama Chat API](https://docs.ollama.com/api/chat): local `/api/chat`, non-streaming response, structured outputs.
 - [Ollama API introduction](https://docs.ollama.com/api/introduction): local server endpoint and client usage.
+=======
+# search-engine
+>>>>>>> ba7abf3ce8cdb0832e48725f29ee4fefbefd82e9
